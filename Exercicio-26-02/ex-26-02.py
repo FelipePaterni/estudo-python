@@ -1,5 +1,6 @@
 # Felipe Soares Paterni Chaves
-
+def say_hello(name):
+    return f"Hello, {name}!"
 # 1
 num1 = int(input("Digite o primeiro número: "))
 num2 = int(input("Digite o segundo número: "))
