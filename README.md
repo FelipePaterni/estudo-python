@@ -2,6 +2,9 @@
 
 Este repositório está organizado por pasta de data.
 
+## 26-02
+- [ex-26-02.py](26-02/ex-26-02.py)
+
 ## 12-03
 - [exercicio.py](12-03/exercicio.py)
 - [for.py](12-03/for.py)
@@ -14,9 +17,6 @@ Este repositório está organizado por pasta de data.
 ## 19-03
 - [exercicio.py](19-03/exercicio.py)
 - [funcao.py](19-03/funcao.py)
-
-## 26-02
-- [ex-26-02.py](26-02/ex-26-02.py)
 
 ## 26-03
 - [lista.py](26-03/lista.py)
