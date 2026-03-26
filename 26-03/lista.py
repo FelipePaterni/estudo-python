@@ -1,10 +1,12 @@
 import subprocess
+import time
 
 
 def clear():
     """
-    Limpa a tela
+    Espera 3 segundos e limpa a tela
     """
+    time.sleep(3)
     subprocess.run("cls", shell=True)
 
 
@@ -123,3 +125,61 @@ while True:
         break
     L.append(escolhido)
 print(L)
+
+clear()
+# Exemplo 10
+L = ["a"]
+L.append("b")
+print(L)
+L.extend(["c"])
+print(L)
+L.extend(["d", "e"])
+print(L)
+L.extend(["f", "g", "h"])
+print(L)
+
+clear()
+# Exemplo 11
+
+L = ['a', 'b', 'c']
+x = L.pop(1)
+print(f"Elemento removido: {x}. lista agora: {L}")
+
+
+clear()
+# Exemplo 12
+
+L = ['a', 'b', 'c']
+del L[1]
+print(f"Lista agora: {L}")
+
+
+clear()
+# Exemplo 13
+
+L = ['a', 'b', 'c']
+L.remove('b')
+print(f"Lista agora: {L}")
+
+clear()
+# Exemplo 14
+
+L = list(range(101))
+del L[1:99]
+print(f"Lista agora: {L}")
+
+clear()
+# Exemplo 14
+
+L = [1,2,3,12]
+for e in L:
+    print(e)
+
+# Exemplo 15
+
+numeros = [2, 5, 3.14, 1, -7]
+numeros.sort()
+print(numeros)
+animais = ["macaco", "cachorro", "gato", "pássaro"]
+animais.sort()
+print(animais)
